@@ -1,0 +1,5 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "ModdingCafe"
+paginate = "5"
+theme = "mdcf"
