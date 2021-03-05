@@ -46,11 +46,10 @@ main components
 }
 .logo {
 	grid-column: span 4;
-	height: 100px;
 	padding: 5px;
 }
 .logo img{
-	width: 100%; height: auto;
+	width: 300px; height: 100px;
 }
 .nav {
 	grid-column: span 8;
@@ -61,7 +60,7 @@ main components
 	padding: 50px 0 0 0;
 }
 .nav li {
-	font-size: larger;
+	font-size: normal;
 	font-weight: 500;
 	margin-right: 20px;
 }
@@ -214,4 +213,25 @@ mobile
 		padding: 10px 0 0 0;
 		justify-self: center; 
 	}
+}
+
+/*
+------------------------------
+youtube
+------------------------------
+*/
+
+.youtube-frame {
+	position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.youtube-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
