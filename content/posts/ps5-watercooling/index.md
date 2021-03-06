@@ -12,9 +12,9 @@ youtube_id: PeuyxWcJnaM
 #- tag2
 #- tag3
 tags:
-
-- WC
-- extra
+  - tag1
+  - tag2
+  - tag3
 
 # Cách ngắt nội dung vào "Continue Reading":
 # gõ dòng <!--more--> vào chỗ muốn cắt.
