@@ -5,7 +5,7 @@ draft: false
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: 0
 youtube_id: PeuyxWcJnaM
-# Cách viết:
+# Cách viết (NOTE: spaces-tab, not tab-tab)
 #tags:
 #  - tag1
 #  - tag2
