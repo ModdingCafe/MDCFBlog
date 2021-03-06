@@ -3,8 +3,8 @@ title: "Z Tower White N' Gold"
 date: "2021-01-20"
 draft: false
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
-featured_image: "poster.jpg"
-youtube_id: 0
+featured_image: 0
+youtube_id: sv6arp5hCu4
 # Cách viết: tags: ["tag1", "tag2", "tag3"]
 tags:
 # Cách ngắt nội dung vào "Continue Reading":
