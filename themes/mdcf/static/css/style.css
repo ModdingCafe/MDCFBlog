@@ -165,6 +165,10 @@ archive
 
 .archive-list-td {
 	padding-top: 30px;
+	vertical-align: top;
+}
+.archive-list-date {
+	white-space:nowrap;
 }
 
 /*

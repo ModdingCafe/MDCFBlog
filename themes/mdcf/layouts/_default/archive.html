@@ -19,7 +19,7 @@
 <table class="archive-list">
 {{ range ( where .Site.RegularPages "Type" "posts" ) }}
 	<tr>
-		<td class="archive-list-td">{{ .Date.Format "Jan 02, 2006" }} _</td>
+		<td class="archive-list-td archive-list-date">{{ .Date.Format "Jan 02, 2006" }} - </td>
 		<td class="archive-list-td"><a href="{{.Permalink}}">{{.Title}}</a></td>
 	</tr>
 {{end}}
