@@ -3,7 +3,7 @@ title: First Test Post
 date: 2021-03-05
 draft: false
 featured_image: poster.jpg
-youtube_id: N153ffpTS6g
+youtube_id: "0"
 tags:
   - tag1
   - tag2
