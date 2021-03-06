@@ -157,13 +157,15 @@ archive
 	font-weight: 500;
 	font-size: large;
 	list-style: none;
-	padding: 0;
 	grid-column: span 12;
-}
-.archive-list > li {
-	margin-bottom: 30px;
+	padding-left: 0;
+	padding-bottom: 30px;
+	text-align: left;
 }
 
+.archive-list-td {
+	padding-top: 30px;
+}
 
 /*
 ------------------------------
@@ -212,6 +214,9 @@ mobile
 		grid-column: span 12;
 		padding: 10px 0 0 0;
 		justify-self: center; 
+	}
+	.archive-list-td {
+		font-size: small;
 	}
 }
 

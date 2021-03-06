@@ -5,7 +5,7 @@
   <hr class="hrx">
 </div>
 
-<ul class="archive-list">
+<!-- <ul class="archive-list">
 {{ range ( where .Site.RegularPages "Type" "posts" ) }}
 <li>
   {{ .Date.Format "Jan 02, 2006" }} _ 
@@ -15,14 +15,17 @@
 </li>
 {{end}}
 </ul>
-
-<table style="width:100%">
+ -->
+<table class="archive-list">
 {{ range ( where .Site.RegularPages "Type" "posts" ) }}
 	<tr>
-		<th>{{ .Date.Format "Jan 02, 2006" }} _</th>
-		<th><a href="{{.Permalink}}">{{.Title}}</a></th>
+		<td class="archive-list-td">{{ .Date.Format "Jan 02, 2006" }} _</td>
+		<td class="archive-list-td"><a href="{{.Permalink}}">{{.Title}}</a></td>
 	</tr>
 {{end}}
 </table>
 
+<div class="subtopper">
+	<hr class="hrx">
+</div>
 {{ end }}
