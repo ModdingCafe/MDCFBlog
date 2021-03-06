@@ -6,11 +6,12 @@ draft: false
 featured_image: "poster.jpg"
 youtube_id: 0
 # Cách viết:
-# tags:
-#	- tag1
-#	- tag2
-#	- tag3
+#tags:
+#- tag1
+#- tag2
+#- tag3
 tags:
+
 
 # Cách ngắt nội dung vào "Continue Reading":
 # gõ dòng <!--more--> vào chỗ muốn cắt.
