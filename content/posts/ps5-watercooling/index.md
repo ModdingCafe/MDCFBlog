@@ -7,10 +7,12 @@ featured_image: 0
 youtube_id: PeuyxWcJnaM
 # Cách viết:
 # tags:
+
 #- tag1
 #- tag2
 #- tag3
-tags: 
+tags:
+
 - WC
 - extra
 
