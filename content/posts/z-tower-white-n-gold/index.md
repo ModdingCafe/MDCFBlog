@@ -1,6 +1,6 @@
 ---
 title: "Z Tower White N' Gold"
-date: "2021-03-06"
+date: "2021-01-20"
 draft: false
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
