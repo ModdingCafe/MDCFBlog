@@ -16,4 +16,13 @@
 {{end}}
 </ul>
 
+<table>
+{{ range ( where .Site.RegularPages "Type" "posts" ) }}
+	<tr>
+		<th>{{ .Date.Format "Jan 02, 2006" }} _</th>
+		<th><a href="{{.Permalink}}">{{.Title}}</a></th>
+	</tr>
+{{end}}
+</table>
+
 {{ end }}
