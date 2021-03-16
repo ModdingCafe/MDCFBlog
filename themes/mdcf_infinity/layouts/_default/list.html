@@ -1,0 +1,16 @@
+{{ define "main"}}
+
+	{{- partial "subtopper.html" . -}}
+	<div class="container"
+		data-infinite-scroll='{ "path": ".pagination__next", "append": ".post", "hideNav": ".pagination" }'	
+	>
+	{{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
+
+	{{ range $paginator.Pages }}
+
+	{{ .Render "summary"}}
+
+	{{end}}
+	</div>
+	{{ partial "pagination" . }}
+{{end}}

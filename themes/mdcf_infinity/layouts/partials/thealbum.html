@@ -1,0 +1,5 @@
+{{ with .Resources.Match "album/*" }}
+	{{ range . }}
+		<img src="{{ .RelPermalink }}">
+	{{ end }}
+{{ end }}
