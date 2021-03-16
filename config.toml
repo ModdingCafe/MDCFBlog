@@ -1,5 +1,5 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Nhenhophach's Mods Log"
-paginate = "3"
+paginate = "5"
 theme = "mdcf"
