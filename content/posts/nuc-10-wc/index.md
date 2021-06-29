@@ -1,5 +1,5 @@
 ---
-title: "PS5 Watercooled × ITX Gaming PC: 2 in 1 System Build."
+title: "Intel NUC Custom Distro Watercooling"
 date: "2021-04-11"
 draft: false
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
