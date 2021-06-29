@@ -3,3 +3,5 @@ languageCode = "en-us"
 title = "Nhenhophach's Mods Log"
 paginate = "5"
 theme = "mdcf_infinity"
+[blackfriday]
+extensions = [“hardLineBreak”]
