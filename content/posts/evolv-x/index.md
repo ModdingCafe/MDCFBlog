@@ -4,7 +4,7 @@ date: "2021-05-12"
 draft: false
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
-youtube_id: KcemKdPWsw8
+youtube_id: 0
 # Cách viết (NOTE: spaces-tab, not tab-tab)
 #tags:
 #  - tag1
