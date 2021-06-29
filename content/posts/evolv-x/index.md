@@ -12,7 +12,7 @@ youtube_id: 0
 #  - tag3
 tags:
   - wc
-  - extra
+  - tower
  
 
 # Cách ngắt nội dung vào "Continue Reading":

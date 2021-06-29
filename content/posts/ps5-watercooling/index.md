@@ -13,6 +13,7 @@ youtube_id: PeuyxWcJnaM
 tags:
   - wc
   - extra
+  - ps5
 
 # Cách ngắt nội dung vào "Continue Reading":
 # gõ dòng <!--more--> vào chỗ muốn cắt.
