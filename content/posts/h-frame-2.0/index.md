@@ -16,6 +16,7 @@ tags:
 
 # Cách ngắt nội dung vào "Continue Reading":
 # gõ dòng <!--more--> vào chỗ muốn cắt.
+weight: 1
 ---
 
 Make it shine.
