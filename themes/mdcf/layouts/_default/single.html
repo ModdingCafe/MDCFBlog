@@ -1,5 +1,5 @@
 {{ define "main"}}
-{{ partial "facebook_script.html" .}}
+{{ partial "facebook_script.html" . }}
 {{- partial "subtopper.html" . -}}
 <!-- Post -->
 <!-- <div class="post-poster">
@@ -31,11 +31,11 @@
 	<p>
 		{{ .Content }}
 	</p>
-		{{ partial "thealbum.html" .}}
+		{{ partial "thealbum.html" . }}
 	<p>
-		{{ partial "tags.html" .}}
+		{{ partial "tags.html" . }}
 	</p>
-		{{ partial "facebook_comments.html" .}}
+		{{ partial "facebook_comments.html" . }}
 </div>
 <!-- End Post -->
 	
