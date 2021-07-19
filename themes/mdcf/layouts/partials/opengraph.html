@@ -11,3 +11,14 @@
 	<meta property="og:description" content="Showcase / Mods Log by Vietnamese Modder Nhenhophach - Amberspider" />
 	{{ end }}
 	<!-- for facebook -->
+	<!-- for twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="twitter:domain" content="{{ .Site.BaseURL }}">
+	<meta name="twitter:description" content="Showcase / Mods Log by Vietnamese Modder Nhenhophach - Amberspider">
+	{{ if (eq .Type "posts") }}
+	<meta name="twitter:title" content="{{ .Page.Title }} - {{ .Site.Title }}">
+	<meta name="twitter:image" content="{{ with (index (.Resources.Match "album/*") 0) }}{{ .Permalink }}{{ end }}">
+	{{ else }}
+	<meta name="twitter:title" content="{{ .Site.Title }}">
+	<meta name="twitter:image" content="{{ .Site.BaseURL }}ogimage.jpg">
+	{{ end }}
