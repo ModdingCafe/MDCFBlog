@@ -4,7 +4,7 @@
 	<meta property="og:image" content="{{ .Site.BaseURL }}ogimage.jpg" />
 	<meta property="og:image:secure_url" content="{{ .Site.BaseURL }}ogimage.jpg" />
 	<meta property="og:description" content="Showcase / Mods Log by Vietnamese Modder Nhenhophach - Amberspider" />
-	{{ else if .IsPage }}
+	{{ else if eq .type "posts"}}
 	<meta property="og:title" content="{{ .Page.Title }} - {{ .Site.Title }}" />
 	<meta property="og:image" content="{{ with (index (.Resources.Match "album/*") 0) }}{{ .Permalink }}{{ end }}"/>
 	<meta property="og:image:secure_url" content="{{ with (index (.Resources.Match "album/*") 0) }}{{ .Permalink }}{{ end }}"/>
