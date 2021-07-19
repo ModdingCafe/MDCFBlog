@@ -1,6 +1,6 @@
 <head>
 	<title>
-		{{ if .IsHome }}
+		{{ if .IsHome }}{{ .Site.Title}}
 		{{ else }}{{ .Site.Title}} - {{ .Page.Title }}
 		{{end}}
 	</title>
