@@ -5,11 +5,7 @@
 </div>
 {{ else }}
 <div class="post-poster">
-	<img src="{{ .Permalink }}
-		{{ with .Params.featured_image }}
-			{{ . }}
-		{{ end }}
-	">
+	<img src="{{ .Permalink }}{{ with .Params.featured_image }}{{ . }}{{ end }}">
 </div>
 {{end}}
 {{ else }}
