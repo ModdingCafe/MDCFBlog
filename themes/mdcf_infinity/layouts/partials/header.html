@@ -1,5 +1,9 @@
 <head>
-	<title>{{ .Site.Title}}</title>
+	<title>
+		{{ if .IsHome }}
+		{{ else }}{{ .Site.Title}} - {{ .Page.Title }}
+		{{end}}
+	</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 	<link rel="icon" href="/favicon.ico"><!-- 32×32 -->
