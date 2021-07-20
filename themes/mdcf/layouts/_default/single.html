@@ -26,15 +26,17 @@
 </div>
 <div class="post-title">
 	<h2>{{.Title}}</h2>
+	<p>
+		{{ partial "tags.html" . }}
+	</p>
+
 </div>
 <div class="post-content-single">
 	<p>
 		{{ .Content }}
 	</p>
 		{{ partial "thealbum.html" . }}
-	<p>
-		{{ partial "tags.html" . }}
-	</p>
+	<hr class="hrx">
 </div>
 <div class="content-left">
 	<h3>Comments</h3>
