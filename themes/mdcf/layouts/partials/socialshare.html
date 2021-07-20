@@ -1,0 +1,15 @@
+<a href="https://www.facebook.com/sharer/sharer.php?u={{ .Page.Permalink }}&t={{.Title}}" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" title="Share on Facebook">
+	<i class="fab fa-facebook-f"></i>
+</a>
+
+<a href="https://twitter.com/share?url={{ .Page.Permalink }}&text={{.Title}}" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" title="Share on Twitter">
+	<i class="fab fa-twitter"></i>
+</a>
+
+<a href="http://pinterest.com/pin/create/button/?url={{ .Page.Permalink | safeURL }}&media={{ with (index (.Resources.Match "album/*") 0) }}{{ .Permalink }}{{ end }}" onClick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" title="Share on Pinterest">
+	<i class="fab fa-pinterest-p"></i>
+</a>
+
+<a href="http://www.reddit.com/submit?url={{ .Page.Permalink | safeURL }}&title={{.Title}}" onClick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" title="Share on Reddit">
+	<i class="fab fa-reddit-alien"></i>
+</a>
