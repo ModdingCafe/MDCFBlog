@@ -1,23 +1,24 @@
 <head>
-	{{ if .IsHome}}
-	<meta property="og:image" content="{{ "ogimage.jpg" | absURL }}" />
-	<meta property="og:image:secure_url" content="{{ "ogimage.jpg" | absURL }}" />
-	<meta property="og:description" content="Showcase / Mods Log by Vietnamese Modder Nhenhophach - Amberspider" />
-	{{ end }}
+	{{ partial "opengraph.html" . }}
 	<title>
 		{{ if .IsHome }}{{ .Site.Title}}
 		{{ else }}{{ .Page.Title }} - {{ .Site.Title}}
 		{{ end }}
 	</title>
+
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 	<link rel="icon" href="/favicon.ico"><!-- 32×32 -->
 	<link rel="icon" href="/nhp.svg" type="image/svg+xml">
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
 	<link rel="manifest" href="/manifest.webmanifest">
+
+	<!-- for fonts -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/d8141625cf.js" crossorigin="anonymous"></script>
+	<!-- for fonts -->
+
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->

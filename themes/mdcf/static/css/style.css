@@ -16,7 +16,7 @@ h1{
 	font-weight: 500;
 	color: lightgray;
 }
-h2{
+h2, h3, h4, h5, h6 {
 	font-weight: 500;
 }
 p {
@@ -140,6 +140,21 @@ posts listing & more
 	display: inline;
 }
 
+.content-left {
+	grid-column: span 6;
+}
+.content-right {
+	grid-column: 7 / span 6;
+	text-align: right;
+	list-style: none;
+	padding: 13 0;
+	padding-inline-start: 0;
+}
+
+.content-right > li {
+	display: inline;
+}
+
 /*
 ------------------------------
 archive
@@ -243,4 +258,14 @@ youtube
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/*
+------------------------------
+facebook
+------------------------------
+*/
+
+.fb-color-override {
+	background-color: #f7f7f7;
 }
