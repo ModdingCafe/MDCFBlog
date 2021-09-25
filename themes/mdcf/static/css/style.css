@@ -94,6 +94,7 @@ posts listing & more
 */
 
 .post-date .hrx {
+	display:inline-block;
 	margin-right:100%;
 }
 .post-poster {
@@ -166,7 +167,6 @@ archive
 }
 
 .archive .hrx {
-	display:inline-block;
 	margin-right: 100%;
 }
 
