@@ -6,6 +6,8 @@
 
 	{{ range $paginator.Pages }}
 
+	{{ partial "pagination" . }}
+
 	{{ .Render "summary"}}
 
 	{{end}}
