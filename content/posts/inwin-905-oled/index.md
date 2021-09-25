@@ -2,7 +2,7 @@
 title: "PC Build: InWin 905 Oled"
 date: "2020-03-03"
 draft: false
-weight: 10
+weight: 100
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
 youtube_id: 0
