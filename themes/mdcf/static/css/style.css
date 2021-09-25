@@ -221,6 +221,7 @@ mobile
 	}
 	.post-title {
 		grid-column: span 12;
+		list-style: none;
 	}
 	.post-content {
 		grid-column: span 12;
