@@ -1,5 +1,5 @@
 ---
-title: "The Horde"
+title: "H-frame ARGB Build"
 date: "2020-07-08"
 draft: false
 weight: 100
@@ -20,4 +20,4 @@ tags:
 # gõ dòng <!--more--> vào chỗ muốn cắt.
 ---
 
-ARGB Update
+ARGB is lit.

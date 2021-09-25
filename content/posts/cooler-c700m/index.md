@@ -1,5 +1,5 @@
 ---
-title: "Cosmos C700M-The Colors of The Rainbow."
+title: "Cosmos C700M - The Colors of The Rainbow."
 date: "2018-12-26"
 draft: false
 weight: 100

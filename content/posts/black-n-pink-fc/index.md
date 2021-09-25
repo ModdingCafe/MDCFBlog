@@ -1,5 +1,5 @@
 ---
-title: "Case Built: InWin A1 Plus - Black & Pink FC"
+title: "PC Built: InWin A1 Plus - Black & Pink FC"
 date: "2020-01-13"
 draft: false
 weight: 100
