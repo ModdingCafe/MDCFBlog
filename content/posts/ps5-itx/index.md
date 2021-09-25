@@ -2,7 +2,7 @@
 title: "PS5 Watercooled × ITX Gaming PC: 2 in 1 System Build."
 date: "2021-05-20"
 draft: false
-weight: 1
+weight: 100
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: 0
 youtube_id: KcemKdPWsw8
