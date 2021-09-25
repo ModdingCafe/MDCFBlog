@@ -2,11 +2,13 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
+        {{ partial "totop.html" . }}
         {{- partial "header.html" . -}}
         <div class="wrapper">
         {{- partial "topper.html" . -}}
         {{- block "main" . }}{{- end }}
         </div>
+        {{ partial "totopscrpt.html" . }}
         {{- partial "footer.html" . -}}
     </body>
 </html>
