@@ -279,7 +279,7 @@ Scroll to top
 ------------------------------
 */
 
-#myBtn, #myBtn:visited {
+#myBtn, #myBtn:visited, #myBtn:hover {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -291,10 +291,6 @@ Scroll to top
   background-color: tomato;
   color: lightgray;
   cursor: pointer;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-#myBtn:hover {
-  background-color: lightsalmon;
+  padding: 12px;
+  border-radius: 12px;
 }
