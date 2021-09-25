@@ -2,6 +2,7 @@
 title: "The Tubeless Build - Water path through mainboard"
 date: "2020-07-03"
 draft: false
+weight: 50
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
 youtube_id: 0
