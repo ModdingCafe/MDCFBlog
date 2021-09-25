@@ -2,6 +2,8 @@
 
 	{{- partial "subtopper.html" . -}}
 
+	{{ partial "pagination" . }}
+
 	{{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
 
 	{{ range $paginator.Pages }}

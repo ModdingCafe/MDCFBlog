@@ -2,7 +2,7 @@
 title: "Phanteks Evolv X-RGB World."
 date: "2019-01-11"
 draft: false
-weight: 0
+weight: 10
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
 youtube_id: 0
