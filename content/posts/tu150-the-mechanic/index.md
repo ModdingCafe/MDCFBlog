@@ -2,6 +2,7 @@
 title: "Tu150 the Mechanic"
 date: "2019-10-17"
 draft: false
+weight: 50
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
 youtube_id: 0

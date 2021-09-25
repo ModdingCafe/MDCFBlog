@@ -2,6 +2,7 @@
 title: "Inwin-925 Hulkbuster"
 date: "2020-12-25"
 draft: false
+weight: 50
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: 0
 youtube_id: Lu_urPg3_a0

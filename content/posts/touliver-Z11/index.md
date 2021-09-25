@@ -2,6 +2,7 @@
 title: "ROG x Touliver: SpaceSpeakers Z11 build"
 date: "2020-12-30"
 draft: false
+weight: 50
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
 youtube_id: loqHtBV63G4

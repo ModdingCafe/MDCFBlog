@@ -3,12 +3,10 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
-        {{ partial "totop.html" . }}
         <div class="wrapper">
         {{- partial "topper.html" . -}}
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
-        {{ partial "totopscrpt.html" . }}
     </body>
 </html>

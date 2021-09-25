@@ -2,6 +2,7 @@
 title: "Z-Tower ROG Edition"
 date: "2019-04-20"
 draft: false
+weight: 50
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
 youtube_id: 0
