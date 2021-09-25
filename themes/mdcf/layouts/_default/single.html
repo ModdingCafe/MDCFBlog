@@ -23,6 +23,8 @@
 <div class="post-date">
 	{{ .Date.Format "Jan 2, 2006" }}
 	<hr class="hrx">
+	<p>
+		<a href="#fcomments"><i class="fas fa-comment-alt"></i> <b><span class="fb-comments-count" data-href="{{ .Permalink }}"></span> comments</b></a>
 </div>
 <div class="post-title">
 	<h2>{{.Title}}</h2>
@@ -34,10 +36,6 @@
 	<p>
 		{{ partial "tags.html" . }}
 	</p>
-	<p>
-		<span class="fb-comments-count" data-href="{{ .Permalink }}"></span> comments
-	</p>
-
 </div>
 <div class="post-content-single">
 	<p>
@@ -56,7 +54,7 @@
 		</li>
 	</h3>
 </div>
-<div class="post-content-single">
+<div class="post-content-single" id="fcomments">
 		{{ partial "facebook_comments.html" . }}
 </div>
 <!-- End Post -->

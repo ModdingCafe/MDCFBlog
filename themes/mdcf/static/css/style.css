@@ -94,6 +94,7 @@ posts listing & more
 */
 
 .post-date .hrx {
+	display:inline-block;
 	margin-right:100%;
 }
 .post-poster {
@@ -142,6 +143,7 @@ posts listing & more
 
 .content-left {
 	grid-column: span 6;
+	list-style: none;
 }
 .content-right {
 	grid-column: 7 / span 6;
@@ -269,3 +271,4 @@ facebook
 .fb-color-override {
 	background-color: #f7f7f7;
 }
+

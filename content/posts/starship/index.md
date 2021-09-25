@@ -2,6 +2,7 @@
 title: "SuperO X-The Starship"
 date: "2018-08-01"
 draft: false
+weight: 50
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
 youtube_id: 0

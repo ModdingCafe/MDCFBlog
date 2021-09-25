@@ -2,6 +2,7 @@
 title: "ROG-Gas Station"
 date: "2019-12-01"
 draft: false
+weight: 50
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
 youtube_id: 0

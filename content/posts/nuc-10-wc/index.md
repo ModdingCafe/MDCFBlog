@@ -2,6 +2,7 @@
 title: "Intel NUC Custom Distro Watercooling"
 date: "2021-04-11"
 draft: false
+weight: 50
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: 0
 youtube_id: fqOzHm28Kpc

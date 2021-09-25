@@ -2,6 +2,7 @@
 title: "Ps5 Watercooling"
 date: "2021-02-04"
 draft: false
+weight: 40
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: 0
 youtube_id: PeuyxWcJnaM

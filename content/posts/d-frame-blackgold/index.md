@@ -2,6 +2,7 @@
 title: "Inwin D-Frame 2.0 X Bitspower BlackGold"
 date: "2020-09-07"
 draft: false
+weight: 50
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
 youtube_id: 0

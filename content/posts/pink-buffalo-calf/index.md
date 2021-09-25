@@ -2,6 +2,7 @@
 title: "Young Buffalo Calf | 'Pink System' WC System Build."
 date: "2021-06-28"
 draft: false
+weight: 50
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
 youtube_id: AVBmLrbm9gE

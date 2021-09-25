@@ -2,6 +2,7 @@
 title: "Evolv X WC System Build."
 date: "2021-05-12"
 draft: false
+weight: 50
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
 youtube_id: 0
