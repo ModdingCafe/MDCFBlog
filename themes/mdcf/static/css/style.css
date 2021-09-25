@@ -110,6 +110,7 @@ posts listing & more
 }
 .post-title {
 	grid-column: span 9;
+	list-style: none;
 }
 .post-title a {
 
