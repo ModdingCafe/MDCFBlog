@@ -1,5 +1,7 @@
 {{ define "main"}}
 
+	{{ partial "totop.html" . }}
+
 	{{- partial "subtopper.html" . -}}
 
 	{{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
@@ -11,5 +13,7 @@
 	{{end}}
 
 	{{ partial "pagination" . }}
+
+	{{ partial "totopscrpt.html" . }}
 	
 {{end}}
