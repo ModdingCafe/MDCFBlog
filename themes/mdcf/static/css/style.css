@@ -166,6 +166,7 @@ archive
 }
 
 .archive .hrx {
+	display:inline-block;
 	margin-right: 100%;
 }
 
