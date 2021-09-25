@@ -142,6 +142,7 @@ posts listing & more
 
 .content-left {
 	grid-column: span 6;
+	list-style: none;
 }
 .content-right {
 	grid-column: 7 / span 6;
@@ -221,7 +222,6 @@ mobile
 	}
 	.post-title {
 		grid-column: span 12;
-		list-style: none;
 	}
 	.post-content {
 		grid-column: span 12;

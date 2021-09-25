@@ -29,11 +29,13 @@
 </div>
 <div class="post-title">
 	<h2>{{.Title}}</h2>
-	<h3>
-		<li>
-			{{ partial "socialshare.html" . }}
-		</li>
-	</h3>
+	<div class="content-left">
+		<h3>
+			<li>
+				{{ partial "socialshare.html" . }}
+			</li>
+		</h3>
+	</div>
 	<p>
 		{{ partial "tags.html" . }}
 	</p>
