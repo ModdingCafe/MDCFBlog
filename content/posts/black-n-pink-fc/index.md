@@ -2,7 +2,7 @@
 title: "Case Built: InWin A1 Plus - Black & Pink FC"
 date: "2020-01-13"
 draft: false
-weight: -100
+weight: "-100"
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
 youtube_id: 0
