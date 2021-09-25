@@ -8,7 +8,7 @@
   {{ $upper_limit := (sub $pag.TotalPages $adjacent_links) }}
 
   {{ if $pag.HasPrev }}
-  <a href="{{ $pag.Prev.URL }}" aria-label="Previous" class="page-tag">&lt;</a>
+  <a href="{{ $pag.Prev.URL }}" aria-label="Previous" class="page-tag">[Previous]</a>
   {{ end }}
 
   <!-- First page (if current page is greater than allowed limit) -->
@@ -52,7 +52,7 @@
   {{ end }}
 
   {{ if $pag.HasNext }}
-  <a href="{{ $pag.Next.URL }}" aria-label="Next" class="page-tag">&gt;</a>
+  <a href="{{ $pag.Next.URL }}" aria-label="Next" class="page-tag">[Next]</a>
   {{ end }}
 <hr class="hrx">
 </div>
