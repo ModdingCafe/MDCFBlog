@@ -273,3 +273,24 @@ facebook
 	background-color: #f7f7f7;
 }
 
+/*
+------------------------------
+Scroll to top
+------------------------------
+*/
+
+#myBtn, #myBtn:visited, #myBtn:hover {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: small;
+  border: none;
+  outline: none;
+  background-color: tomato;
+  color: lightgray;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 12px;
+}
