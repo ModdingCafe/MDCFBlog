@@ -45,14 +45,14 @@ main components
 	grid-template-columns: repeat(12, 1fr);
 }
 .logo {
-	grid-column: span 4;
+	grid-column: span 5;
 	padding: 5px;
 }
 .logo img{
-	width: 300px; height: 100px;
+	width: 400px; height: 100px;
 }
 .nav {
-	grid-column: span 8;
+	grid-column: span 7;
 	justify-self: end; 
 	display: flex;
 	list-style: none;
