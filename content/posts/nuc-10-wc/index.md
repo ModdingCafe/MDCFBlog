@@ -15,6 +15,7 @@ tags:
   - wc
   - extra
   - scratch
+  - sff
 
 # Cách ngắt nội dung vào "Continue Reading":
 # gõ dòng <!--more--> vào chỗ muốn cắt.
