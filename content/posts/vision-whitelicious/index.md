@@ -1,5 +1,5 @@
 ---
-title: "Whitelicious | Meshlicious All White Build."
+title: "Whitelicious | Meshlicious All White SFF Build."
 date: "2021-10-15"
 draft: false
 weight: 09
