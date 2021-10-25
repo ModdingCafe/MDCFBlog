@@ -1,5 +1,5 @@
 ---
-title: "Whitelicious | 'Pink System' WC System Build."
+title: "Whitelicious | Meshlicious All White Build."
 date: "2021-10-15"
 draft: false
 weight: 50
