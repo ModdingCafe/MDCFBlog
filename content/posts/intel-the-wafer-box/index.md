@@ -2,7 +2,7 @@
 title: "THE WAFER BOX - Intel 12th Gen Launch Exhibition Custom PC"
 date: "2021-11-24"
 draft: false
-weight: 05
+weight: 08
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
 youtube_id: dvX77h_meVI
