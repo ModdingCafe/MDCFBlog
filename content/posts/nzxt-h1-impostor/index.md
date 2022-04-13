@@ -1,6 +1,6 @@
 ---
 title: "NZXT H1 Impostor with 360 radiator"
-date: "2021-11-24"
+date: "2022-04-12"
 draft: false
 weight: 08
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
