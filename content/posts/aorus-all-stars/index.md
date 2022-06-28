@@ -20,4 +20,4 @@ tags:
 # gõ dòng <!--more--> vào chỗ muốn cắt.
 ---
 
-All the top-of-the-line components from Gigabyte Aorus Line.
+All the top-of-the-line components from Gigabyte Aorus Line, with custom CNC enclosure to match the theme.
