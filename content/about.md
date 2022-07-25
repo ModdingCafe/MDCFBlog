@@ -25,5 +25,5 @@ PC builder, modder, inventor since 2000s
 - 2018 Modding Cafe open renderfarm and computing solution service
 - 2019 to 2020 Modding cafe become Vietnamese sole distributor for InWin..
 	Start doing more Youtube videos
-- 2021 [World-first watercooled mono block for Sony PS5.](https://nhenhophach.com/posts/ps5-watercooling/)..
+- 2021 [World-first watercooled mono block for Sony PS5.]({{ .Site.BaseURL }}/posts/ps5-watercooling/)..
 	Global viral with over 2 millions views total for the channel
