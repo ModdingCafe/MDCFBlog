@@ -1,2 +1,8 @@
 http://nhenhophach.com/* https://nhenhophach.com/:splat 301!
 http://www.nhenhophach.com/* https://www.nhenhophach.com/:splat 301!
+
+http://moddingcafe.com/* https://nhenhophach.com/:splat 301!
+http://www.moddingcafe.com/* https://nhenhophach.com/:splat 301!
+
+https://moddingcafe.com/* https://nhenhophach.com/:splat 301!
+https://www.moddingcafe.com/* https://nhenhophach.com/:splat 301!
