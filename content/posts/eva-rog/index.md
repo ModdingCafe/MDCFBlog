@@ -1,6 +1,6 @@
 ---
 title: "ROG x Evangelion Open Build - Tubeless WC"
-date: "2022-08-28"
+date: "2022-07-28"
 draft: false
 weight: 08
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
