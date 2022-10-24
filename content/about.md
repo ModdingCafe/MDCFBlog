@@ -9,10 +9,6 @@ PC builder, modder, inventor since 2000s
 
 - 2002 Career started in HCMC, Vietnam
 - 2007 First hardware retail & custom pc build company: PC Saloon
-- 2008 LN2 Overclocking word records holder..
-	Showcase in Vietnam Computer World Expo
-- 2009 Started doing scratch-builds and more complex modding projects..
-	Worked with brands at more exhibitions
 - 2010 More scratch-builds, requently posted on XtremeSystem and Bit-tech
 - 2011 [Scratch-build ROG RAMPAPGE](https://forums.bit-tech.net/index.php?threads/rog-rampage-complete-moty-2nd-place.211108/) got 2nd place Mod of The Year at Bit-tech..
 	Invented water distribute plate for PC (first time used in ROG RAMPAGE build)
