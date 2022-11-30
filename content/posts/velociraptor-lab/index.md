@@ -1,5 +1,5 @@
 ---
-title: "Iron Man Mark III Construction Diorama: The PC."
+title: "[Diorama] Velociraptor Lab PC Build"
 date: "2022-11-29"
 draft: false
 weight: 08
