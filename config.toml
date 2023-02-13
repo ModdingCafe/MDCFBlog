@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Nhenhophach's Mods Log"
+title = "Nhenhophach's Mods Log (Shop Dev)"
 paginate = "8"
 theme = "mdcf"
 [blackfriday]

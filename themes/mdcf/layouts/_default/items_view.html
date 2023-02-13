@@ -1,0 +1,16 @@
+<div class="item-box">
+
+	<div class="item-poster">
+		<img src="{{ .Permalink }}{{ with .Params.featured_image }}{{ . }}{{ end }}">
+	</div>
+
+	<div class="item-title">
+		<h2><a href="{{ .Permalink }}">{{.Title}}</a></h2>
+	</div>
+
+	<div class="item-content">
+		<a href="{{ .Permalink }}">Details</a>
+		{{ partial "tags.html" .}}
+	</div>
+	
+</div>

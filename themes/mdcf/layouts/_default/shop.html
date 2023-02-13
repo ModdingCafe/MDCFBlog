@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+{{- partial "shoptopper.html" . -}}
+
+<div class="item-wrapper">
+
+{{ range ( where .Site.RegularPages.ByDate.Reverse "Type" "items" ) }}
+
+{{ .Render "items_view"}}
+
+{{end}}
+
+</div>
+
+<div class="subtopper">
+	<hr class="hrx">
+</div>
+{{ end }}
