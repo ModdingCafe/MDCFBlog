@@ -49,8 +49,8 @@ main components
 	padding: 5px;
 }
 .logo img{
-	max-width: 450px;
-	max-height: 100px;
+	width: 450px;
+	height: 100px;
 }
 .nav {
 	grid-column: span 8;
@@ -72,12 +72,6 @@ main components
 	grid-column: span 12;
 	height: 130px;
 	padding-top: 50px;
-}
-.logo{
-
-}
-.linker{
-
 }
 .hrx{
 	width: 50px;
@@ -255,6 +249,11 @@ mobile
 	.logo{
 		grid-column: span 12;
 		margin: 0 auto;
+		text-align: center;
+	}
+	.logo img{
+		width: 90%;
+		height: auto;
 	}
 	.nav {
 		grid-column: span 12;
