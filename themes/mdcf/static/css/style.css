@@ -49,7 +49,8 @@ main components
 	padding: 5px;
 }
 .logo img{
-	width: 450px; height: 100px;
+	max-width: 450px;
+	max-height: 100px;
 }
 .nav {
 	grid-column: span 8;
