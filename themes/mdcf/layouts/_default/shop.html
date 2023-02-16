@@ -2,11 +2,11 @@
 
 {{- partial "shoptopper.html" . -}}
 
-<div class="item-wrapper">
+<div class="item-s-wrapper">
 
-{{ range ( where .Site.RegularPages.ByDate.Reverse "Type" "items" ) }}
+{{ range ( where .Site.RegularPages.ByDate.Reverse "Type" "item" ) }}
 
-{{ .Render "items_view"}}
+{{ .Render "items_summary"}}
 
 {{end}}
 

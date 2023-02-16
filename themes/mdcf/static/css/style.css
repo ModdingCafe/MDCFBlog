@@ -190,7 +190,7 @@ shop
 ------------------------------
 */
 
-.item-wrapper {
+.item-s-wrapper {
 	grid-column: span 12;
 	max-width: 900px;
 	margin: 0 auto;
@@ -198,13 +198,18 @@ shop
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 50px;
 }
-.item-box{
+
+/*
+------------------------------
+item
+------------------------------
+*/
+.item-poster {
+	grid-column: span 6;
 }
-.item-poster{
-}
-.item-title{
-}
-.item-content{
+.item-title {
+	grid-column: span 6;
+	list-style: none;
 }
 
 /*
@@ -264,11 +269,11 @@ mobile
 		font-size: small;
 	}
 
-	.item-wrapper {
+	.item-s-wrapper {
 	grid-template-columns: repeat(1, 1fr);
 	justify-content: center;
 	}
-	.item-box{
+	.item-s-box{
 	max-width: 425px;
 	margin: auto;
 	}

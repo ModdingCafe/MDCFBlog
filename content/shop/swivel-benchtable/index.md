@@ -1,6 +1,6 @@
 ---
 title: "Swivel CNC Benchtable"
-type: items
+type: item
 draft: false
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.png"
