@@ -1,5 +1,5 @@
 ---
-title: "Ryzen 7950x with 6900XT Scratch-build: Quietly Potent"
+title: "Diorama PC: Automated Storage for Supercars"
 date: "2023-03-22"
 draft: false
 weight: 08
