@@ -1,6 +1,6 @@
 ---
 title: "Ryzen 7950x with 6900XT Scratch-build: Quietly Potent"
-date: "2022-12-14"
+date: "2023-03-22"
 draft: false
 weight: 08
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
