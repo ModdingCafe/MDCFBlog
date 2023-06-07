@@ -4,16 +4,23 @@
 		</a>
 </div>
 <ul class="nav">
-	<li><a href="/">Home</a></li>
-	<li><a href="/about">Bio</a></li>
-	<li><a href="/archive">Arc</a></li>
-	<li><a href="https://www.youtube.com/c/moddingcafetv" target="_blank">
-		<i class="fab fa-youtube-square"></i> Yt
+	<li><a href="{{ T "DIR" }}">{{ T "Home" }}</a></li>
+	<li><a href="{{ T "DIR" }}about">{{ T "Bio" }}</a></li>
+	<li><a href="{{ T "DIR" }}archive">{{ T "Arc" }}</a></li>
+</ul>
+<ul class="nav2">
+	<li><a href="https://www.youtube.com/c/moddingcafetv" class="nav2l" target="_blank">
+		<i class="fab fa-youtube-square"></i> Youtube
 	</a></li>
-	<li><a href="https://www.facebook.com/nhenhophachfp" target="_blank">
-		<i class="fab fa-facebook-square"></i> Fb
+	<li><a href="https://www.facebook.com/nhenhophachfp" class="nav2l" target="_blank">
+		<i class="fab fa-facebook-square"></i> Facebook
 	</a></li>
-	<li><a href="https://www.instagram.com/moddingcafe" target="_blank">
-		<i class="fab fa-instagram-square"></i> Ig
+	<li><a href="https://www.instagram.com/moddingcafe" class="nav2l" target="_blank">
+		<i class="fab fa-instagram-square"></i> Instagram
 	</a></li>
+</ul>
+<ul class="nav2">
+            {{ range .AllTranslations }}
+            <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+            {{ end }}
 </ul>

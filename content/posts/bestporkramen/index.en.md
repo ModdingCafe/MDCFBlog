@@ -15,6 +15,7 @@ tags:
   - wc
   - scratch
   - sff
+  - diorama
 
 # Cách ngắt nội dung vào "Continue Reading":
 # gõ dòng <!--more--> vào chỗ muốn cắt.
@@ -22,7 +23,7 @@ tags:
 
 My beloved project from 2019 now get a make over in 2022
 
-Computer Spec / Cấu Hình máy :
+Computer Specs:
 - Motherboard: MSI MEG Z690I UNIFY
 - CPU: Intel Gen 12 Core I7-12700KF
 - VGA: GeForce RTX™ 3050 AERO ITX 8G OC

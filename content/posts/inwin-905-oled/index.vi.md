@@ -1,6 +1,6 @@
 ---
-title: "SL600M - I'm MasterCase"
-date: "2018-12-24"
+title: "Dựng máy: InWin 905 Oled"
+date: "2020-03-03"
 draft: false
 weight: 100
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
@@ -14,19 +14,15 @@ youtube_id: 0
 tags:
   - wc
   - tower
- 
 
 # Cách ngắt nội dung vào "Continue Reading":
 # gõ dòng <!--more--> vào chỗ muốn cắt.
 ---
-
-Blurring the lines between Work/Play
+InWin 905 Oled WC Tower Build-to-order.
 <!--more-->
-
 Specs:
-
-- Motherboard: ASUS ROG Maximus XI Code
-- CPU: Intel Core I9 9900K
-- VGA: ASUS ROG 2080Ti Strix 11GB OC.
-- Memory:32GB ADATA SPECTRIX D80 RGB Liquid Cooling.
-- SSD: Samsung 970 EVO 250GB SSD – M.2 NVMe
+- Mainboard: MSI MEG Z390 ACE.
+- CPU: Intel Core i9-9900K.
+- GPU: RTX2080Ti.
+- Memory: GSkill Trident Z RGB 32GB Bus 3200.
+- WaterCooling: Bitspower.

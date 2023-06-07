@@ -45,19 +45,20 @@ main components
 	grid-template-columns: repeat(12, 1fr);
 }
 .logo {
-	grid-column: span 5;
+	grid-column: span 12;
+	justify-self: center; 
 	padding: 5px;
 }
 .logo img{
 	width: 450px; height: 100px;
 }
 .nav {
-	grid-column: span 7;
-	justify-self: end; 
+	grid-column: span 12;
+	justify-self: center; 
 	display: flex;
 	list-style: none;
 	margin: 0;
-	padding: 50px 0 0 0;
+	padding: 10px 0 0 0;
 }
 .nav li {
 	font-size: normal;
@@ -67,6 +68,32 @@ main components
 .nav li:last-child {
 	margin-right: 0;
 }
+
+.nav2 {
+	grid-column: span 12;
+	justify-self: center; 
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+.nav2 li {
+	font-size: normal;
+	font-weight: 500;
+	margin-right: 20px;
+}
+.nav2 li:last-child {
+	margin-right: 0;
+}
+a.nav2l:link, a.nav2l:visited{
+	color: lightgray;
+	text-decoration: none;
+}
+a.nav2l:hover, a.nav2l:active{
+	color: white;
+	text-decoration: none;
+}
+
 .subtopper {
 	grid-column: span 12;
 	height: 130px;
@@ -165,6 +192,11 @@ archive
 */
 .archive {
 	padding-top: 50px;
+	grid-column: span 12;
+}
+
+.archive h1 {
+	text-align: left;
 }
 
 .archive .hrx {
@@ -215,7 +247,7 @@ mobile
 ------------------------------
 */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
 	.post-date {
 		grid-column: span 12;
 	}
@@ -228,7 +260,7 @@ mobile
 	.post-content {
 		grid-column: span 12;
 	}
-	.logo{
+/*	.logo{
 		grid-column: span 12;
 		margin: 0 auto;
 	}
@@ -236,7 +268,7 @@ mobile
 		grid-column: span 12;
 		padding: 10px 0 0 0;
 		justify-self: center; 
-	}
+	}*/
 	.archive-list-td {
 		font-size: small;
 	}
