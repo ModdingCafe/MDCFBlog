@@ -20,7 +20,7 @@ tags:
 # gõ dòng <!--more--> vào chỗ muốn cắt.
 ---
 
-Cooler Master C700M, RGB Buid.
+Cooler Master C700M, RGB Build.
 <!--more-->
 
 Specs:

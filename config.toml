@@ -1,7 +1,16 @@
 baseURL = "/"
-languageCode = "en-us"
-title = "Nhenhophach's Mods Log"
-paginate = "8"
 theme = "mdcf"
+paginate = "8"
+DefaultContentLanguage = "vi"
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.vi]
+    title = "Kí sự chế tác của Nhện Hổ Phách"
+    languageName = "Tiếng Việt"
+    weight = 1
+  [languages.en]
+    title = "Nhenhophach's Mods Log"
+    languageName = "English"
+    weight = 2
 [blackfriday]
     extensions = ["hardLineBreak"]

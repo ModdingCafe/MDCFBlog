@@ -22,7 +22,7 @@ tags:
 Inspired by MB$F 3 & TIE fighters, which are fictional starfighters in the Star Wars universe. Propelled by Twin Ion Engines, TIE fighters are fast, agile, yet fragile starfighters produced by Sienar Fleet Systems for the Galactic Empire.
 <!--more-->
 
-Specs
+Specs:
 - CPU: Intel I7-8700K
 - Mainboard: SuperO Z370CG-IW
 - VGA: Zotac GTX 1070 Ti

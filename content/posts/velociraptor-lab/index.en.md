@@ -1,5 +1,5 @@
 ---
-title: "[Diorama] Velociraptor Lab PC Build"
+title: "[DIORAMA x PC] Velociraptor Lab PC Build"
 date: "2022-11-29"
 draft: false
 weight: 08
@@ -14,6 +14,7 @@ youtube_id: 21FdjtoWHRU
 tags:
   - wc
   - scratch
+  - diorama
  
 
 # Cách ngắt nội dung vào "Continue Reading":
@@ -23,6 +24,7 @@ tags:
 This Raptor-themed PC was build for Intel 13th Gen Launch Day in Vietnam: November 18th 2022. We finished it just a few days before the event.
 <!--more-->
 Featured components:
+
 - 13th Generation Intel® Core™ i9 13900k Processor
 - Asus ROG Maximus Z790 Hero Mainboard
 - Asus ROG Strix GeForce RTX™ 3070 Ti 8GB Graphic Cards

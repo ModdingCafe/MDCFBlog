@@ -43,7 +43,7 @@ ITX Module:
 
 PS5 Module:
 - Custom APU Waterblock based on Bitspower Touchaqua Summit MS OLED
-- Custom PCB component water block conductive plates.
+- Custom PCB component water block conductive plates
 - Custom Memory chips heatsink
 - PSU CoolerMaster V650 SFX Gold
 - Noctua NF-A12x15 PWM

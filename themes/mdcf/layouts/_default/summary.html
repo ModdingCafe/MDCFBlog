@@ -15,7 +15,7 @@
 {{ end }}
 
 <div class="post-date">
-	{{ .Date.Format "Jan 2, 2006" }}
+	{{ time.Format "02 Jan 06" .Date }}
 	<hr class="hrx">
 </div>
 <div class="post-title">
@@ -25,9 +25,9 @@
 	<p>{{ .Summary | plainify | safeHTML }}</p>
 
 	{{ if .Truncated }}
-	<a href="{{ .Permalink }}">Continue Reading</a>
+	<a href="{{ .Permalink }}">{{ T "Continuereading" }}</a>
 	{{end}}
 
 	{{ partial "tags.html" .}}
-	<p><span class="fb-comments-count" data-href="{{ .Permalink }}"></span> comments</p> 
+	<!-- <p><span class="fb-comments-count" data-href="{{ .Permalink }}"></span> comments</p>  -->
 </div>
