@@ -45,8 +45,8 @@ main components
 	grid-template-columns: repeat(12, 1fr);
 }
 .logo {
-	grid-column: span 12;
-	justify-self: center; 
+	grid-column: span 8;
+	justify-self: left; 
 	padding: 5px;
 }
 .logo img{
@@ -85,6 +85,7 @@ main components
 .nav2 li:last-child {
 	margin-right: 0;
 }
+
 a.nav2l:link, a.nav2l:visited{
 	color: lightgray;
 	text-decoration: none;
@@ -92,6 +93,28 @@ a.nav2l:link, a.nav2l:visited{
 a.nav2l:hover, a.nav2l:active{
 	color: white;
 	text-decoration: none;
+}
+
+.lang {
+	grid-column: span 4;
+	justify-self: right; 
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+.lang li {
+	font-size: normal;
+	font-weight: 500;
+	margin-right: 20px;
+	position: relative;
+	top:30%;
+}
+.lang li:last-child {
+	margin-right: 0;
+}
+.langtop {
+		display: none;
 }
 
 .subtopper {
@@ -260,15 +283,31 @@ mobile
 	.post-content {
 		grid-column: span 12;
 	}
-/*	.logo{
+	.logo{
 		grid-column: span 12;
 		margin: 0 auto;
 	}
-	.nav {
+	.lang {
+		display: none;
+	}
+	.langtop {
 		grid-column: span 12;
-		padding: 10px 0 0 0;
 		justify-self: center; 
-	}*/
+		display: flex;
+		list-style: none;
+		margin: 0;
+		padding: 10px 0 0 0;
+	}
+	.langtop li {
+		font-size: normal;
+		font-weight: 500;
+		margin-right: 20px;
+		position: relative;
+		top:30%;
+	}
+	.langtop li:last-child {
+		margin-right: 0;
+	}
 	.archive-list-td {
 		font-size: small;
 	}

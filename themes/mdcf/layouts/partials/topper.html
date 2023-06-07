@@ -1,8 +1,18 @@
+<ul class="langtop">
+            {{ range .AllTranslations }}
+            <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+            {{ end }}
+</ul>
 <div class="logo">
 		<a href="{{ "./" | relURL }}">
 			<img src="{{ "/NhenLogo.svg" | relURL }}"/>
 		</a>
 </div>
+<ul class="lang">
+            {{ range .AllTranslations }}
+            <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+            {{ end }}
+</ul>
 <ul class="nav">
 	<li><a href="{{ T "DIR" }}">{{ T "Home" }}</a></li>
 	<li><a href="{{ T "DIR" }}about">{{ T "Bio" }}</a></li>
@@ -18,9 +28,4 @@
 	<li><a href="https://www.instagram.com/moddingcafe" class="nav2l" target="_blank">
 		<i class="fab fa-instagram-square"></i> Instagram
 	</a></li>
-</ul>
-<ul class="nav2">
-            {{ range .AllTranslations }}
-            <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
-            {{ end }}
 </ul>
