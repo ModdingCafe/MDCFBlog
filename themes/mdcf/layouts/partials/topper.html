@@ -1,6 +1,9 @@
 <ul class="langtop">
             {{ range .AllTranslations }}
-            <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+            <li><a href="{{ .Permalink }}">
+            	<img src="{{ .Language.Params.langflag }}" height="15"/>
+            	{{ .Language.LanguageName }}
+            </a></li>
             {{ end }}
 </ul>
 <div class="logo">
@@ -10,7 +13,10 @@
 </div>
 <ul class="lang">
             {{ range .AllTranslations }}
-            <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+            <li><a href="{{ .Permalink }}">
+            	<img src="{{ .Language.Params.langflag }}" width="25" height="15"/>
+            	{{ .Language.LanguageName }}
+            </a></li>
             {{ end }}
 </ul>
 <ul class="nav">

@@ -6,10 +6,12 @@ defaultContentLanguageInSubdir = true
 [languages]
   [languages.vi]
     title = "Kí sự chế tác của Nhện Hổ Phách"
+    langflag = "/vi.svg"
     languageName = "Tiếng Việt"
     weight = 1
   [languages.en]
     title = "Nhenhophach's Mods Log"
+    langflag = "/en.svg"
     languageName = "English"
     weight = 2
 [blackfriday]
