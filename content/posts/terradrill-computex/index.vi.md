@@ -5,7 +5,7 @@ draft: false
 weight: 08
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
-youtube_id: 1D6xJG41CI8
+youtube_id: 3VkXA1TdmIk
 # Cách viết (NOTE: spaces-tab, not tab-tab)
 #tags:
 #  - tag1
