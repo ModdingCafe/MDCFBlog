@@ -1,8 +1,8 @@
 ---
 title: "Watercooled XBox Series X - Part One"
-date: "2023-12-29"
+date: "2024-01-02"
 draft: false
-weight: 08
+weight: 05
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
 youtube_id: t_OJ6-b2FkU

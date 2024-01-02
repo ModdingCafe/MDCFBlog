@@ -2,7 +2,7 @@
 title: "[TIỂU CẢNH x PC] VIỆT SUB: Tổ Hợp Mì Heo Đệ Nhất - Bản Nâng Cấp"
 date: "2022-04-04"
 draft: false
-weight: 05
+weight: 08
 # Nếu có youtube_id, featured_image sẽ bị ẩn.
 featured_image: "poster.jpg"
 youtube_id: 7jkTJV6KVHg
