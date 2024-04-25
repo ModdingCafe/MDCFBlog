@@ -1,5 +1,5 @@
 ---
-title: "Thùng máy Corsair 6500X gắn cpu block Stealth Tubing: "Khuyết Bạch"
+title: "Thùng máy Corsair 6500X gắn cpu block Stealth Tubing: Phiên bản Khuyết Bạch"
 date: "2024-04-25"
 draft: false
 weight: 05
