@@ -19,4 +19,4 @@ tags:
 # Cách ngắt nội dung vào "Continue Reading":
 # gõ dòng <!--more--> vào chỗ muốn cắt.
 ---
-Thực ra là Modding PC vẫn có làm máy bộ nha các bạn, trong trường hợp các bạn định ráp máy ;)
+Thực ra là Modding PC vẫn có làm máy bộ nha các bạn, trong trường hợp các bạn định ráp máy.

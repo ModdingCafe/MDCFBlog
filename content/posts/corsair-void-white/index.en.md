@@ -19,4 +19,4 @@ tags:
 # Cách ngắt nội dung vào "Continue Reading":
 # gõ dòng <!--more--> vào chỗ muốn cắt.
 ---
-Just for your information, Modding Cafe DO build non-custom-case PC, incase you looking for one ;)
+Just for your information, Modding Cafe DO build non-custom-case PC, incase you looking for one.
