@@ -18,4 +18,5 @@ tags:
 
 # Cách ngắt nội dung vào "Continue Reading":
 # gõ dòng <!--more--> vào chỗ muốn cắt.
+---
 Hyte Panorama Amoled screen module, Hyte Y70 2.5k Touch Screen, Gigabyte X870E Aorus Pro Ice, WD_black SN850X
